@@ -1,0 +1,10 @@
+.success-btn{
+    all:unset;
+    height: 3rem;
+    width: 10rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color:#fff;
+    background-color: #38DA71;
+    border-radius: .5rem; 
+}

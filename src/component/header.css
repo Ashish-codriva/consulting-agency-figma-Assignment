@@ -1,0 +1,45 @@
+/* header div CSS */
+
+:root {
+  --bg-blue: #141F39;
+  --text-color: #ffffff;
+} 
+
+[data-theme="dark"] {
+  --bg-blue: #141F39;
+  --text-color: #ffffff;
+}
+
+
+.head-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  color:var(--text-color);
+  background-color: var(--bg-blue);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 1.2rem;
+    margin:.5rem;
+}
+.logo-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.logo-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
