@@ -1,0 +1,157 @@
+.app-signup {
+  width: 100%;
+  min-height: 320px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding-top: 66px;
+}
+
+.signup-content {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.signup-content h2 {
+  margin: 0;
+
+  color: #18233d;
+  font-size: 2rem;
+  line-height: 1.35;
+  font-weight: 700;
+  letter-spacing: -0.7px;
+}
+
+.signup-content p {
+  margin: 10px 0 23px;
+
+  color: #6f7788;
+  font-size: .9rem;
+  line-height: 1.7;
+}
+
+/* =========================
+   Signup Form
+========================= */
+
+.signup-form {
+  width: 300px;
+  height: 34px;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #ffffff;
+  border-radius: 6px;
+
+  box-shadow: 0 5px 25px rgba(20, 30, 50, 0.10);
+
+  overflow: hidden;
+}
+
+.signup-form input {
+  flex: 1;
+  height: 100%;
+
+  border: none;
+  outline: none;
+
+  padding: 0 12px;
+
+  color: #333;
+  font-size: .8rem;
+  font-family: inherit;
+}
+
+.signup-form input::placeholder {
+  color: #b9bdc6;
+}
+
+.signup-form button {
+  width: 85px;
+  height: 29px;
+
+  margin-right: 3px;
+
+  border: none;
+  border-radius: 5px;
+
+  background-color: #32d477;
+  color: #ffffff;
+
+  font-size: .8rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease;
+}
+
+.signup-form button:hover {
+  background-color: #25bf67;
+}
+
+/* =========================
+   Sign In
+========================= */
+
+.signin-text {
+  margin-top: 22px;
+
+  color: #7b8290;
+  font-size: .8rem;
+}
+
+.signin-text a {
+  color: #273148;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signin-text a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media (max-width: 600px) {
+  .app-signup {
+    padding: 50px 20px;
+  }
+
+  .signup-content h2 {
+    font-size: 23px;
+  }
+
+  .signup-content p {
+    font-size: .9rem;
+  }
+
+  .signup-content p br {
+    display: none;
+  }
+
+  .signup-form {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 400px) {
+  .signup-content h2 {
+    font-size: 21px;
+  }
+
+  .signup-form {
+    max-width: 290px;
+  }
+}

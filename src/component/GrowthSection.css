@@ -1,0 +1,199 @@
+.growth-section {
+  width: 100%;
+  background-color: #14213d;
+  padding: 48px 20px 60px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.growth-container {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* =========================
+   Heading
+========================= */
+
+.growth-heading {
+  text-align: center;
+  color: #ffffff;
+}
+
+.growth-heading h2 {
+  margin: 0;
+
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.heading-highlight {
+  position: relative;
+  display: inline-block;
+
+  margin-right: 2px;
+  padding: 4px 3px;
+
+  z-index: 1;
+}
+
+.heading-highlight::before {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 46px;
+  height: 46px;
+
+  background-color: #ff8585;
+  border-radius: 0 45px 0 0;
+
+  z-index: -1;
+}
+
+.growth-heading p {
+  margin: 10px 0 0;
+
+  color: #aeb7c9;
+  font-size: .9rem;
+  line-height: 1.6;
+}
+
+/* =========================
+   Statistics
+========================= */
+
+.growth-stats {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  margin-top: 27px;
+  margin-bottom: 42px;
+}
+
+.growth-stat {
+  text-align: center;
+}
+
+.growth-stat h3 {
+  margin: 0 0 7px;
+
+  color: #ffffff;
+  font-size: 27px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.growth-stat span {
+  color: #ffffff;
+  font-size: 9px;
+  font-weight: 400;
+}
+
+/* =========================
+   Dashboard
+========================= */
+
+.dashboard-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-image {
+  display: block;
+
+  width: 100%;
+  max-width: 610px;
+  height: auto;
+
+  border-radius: 13px;
+
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 768px) {
+  .growth-section {
+    padding: 45px 20px 50px;
+  }
+
+  .growth-heading h2 {
+    font-size: 25px;
+  }
+
+  .growth-stats {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+
+  .growth-stat h3 {
+    font-size: 24px;
+  }
+}
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 550px) {
+  .growth-section {
+    padding: 40px 15px 45px;
+  }
+
+  .growth-heading h2 {
+    font-size: 22px;
+    letter-spacing: -0.5px;
+  }
+
+  .growth-heading p {
+    font-size: 8px;
+  }
+
+  .growth-heading p br {
+    display: none;
+  }
+
+  .growth-stats {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+
+  .growth-stat h3 {
+    font-size: 23px;
+  }
+
+  .growth-stat span {
+    font-size: 8px;
+  }
+
+  .dashboard-image {
+    border-radius: 9px;
+  }
+}
+
+/* =========================
+   Small Mobile
+========================= */
+
+@media (max-width: 350px) {
+  .growth-heading h2 {
+    font-size: 20px;
+  }
+
+  .growth-stat h3 {
+    font-size: 21px;
+  }
+}

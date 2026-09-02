@@ -1,4 +1,4 @@
-import "./HeroSection.css";
+import "./heroSection.css";
 import eventImage1 from "../assets/event.png";
 import eventImage2 from "../assets/event-1.png";
 import eventImage3 from "../assets/event-3.png";
