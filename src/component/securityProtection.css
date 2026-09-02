@@ -1,0 +1,368 @@
+.security-section {
+  width: 100%;
+  min-height: 535px;
+  background: #ffffff;
+  padding: 80px 20px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.security-container {
+  max-width: 780px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 0.85fr;
+  align-items: center;
+  column-gap: 55px;
+}
+
+/* =========================
+   LEFT CONTENT
+========================= */
+
+.security-content h2 {
+  margin: 0;
+
+  color: #17213d;
+  font-size: 32px;
+  line-height: 1.38;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+}
+
+.security-description {
+  max-width: 390px;
+
+  margin: 10px 0 0;
+
+  color: #697389;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.security-divider {
+  width: 100%;
+  height: 1px;
+
+  background: #e7e7e7;
+
+  margin: 30px 0 27px;
+}
+
+/* =========================
+   FEATURES
+========================= */
+
+.security-feature {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  min-height: 61px;
+  margin-bottom: 26px;
+}
+
+.feature-icon {
+  position: absolute;
+
+  left: -6px;
+  top: 0;
+
+  width: 50px;
+  height: 45px;
+
+  border-radius: 20px;
+
+  z-index: 0;
+}
+
+.feature-icon--green {
+  background: #d9ffe9;
+}
+
+.feature-icon--pink {
+  background: #ffd7d7;
+}
+
+.security-feature h3 {
+  position: relative;
+  z-index: 1;
+
+  margin: 0 0 5px 2px;
+
+  color: #18233e;
+
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  letter-spacing: -0.7px;
+}
+
+.security-feature p {
+  position: relative;
+  z-index: 1;
+
+  margin: 0 0 0 2px;
+
+  color: #697389;
+
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+/* =========================
+   CARD VISUAL
+========================= */
+
+.security-visual {
+  position: relative;
+
+  width: 320px;
+  height: 310px;
+
+  margin-left: auto;
+}
+
+/* Background circle */
+
+.card-circle {
+  position: absolute;
+
+  width: 296px;
+  height: 296px;
+
+  top: 4px;
+  left: 13px;
+
+  border-radius: 50%;
+
+  background: #eafcff;
+}
+
+/* =========================
+   CREDIT CARD
+========================= */
+
+.credit-card {
+  position: absolute;
+
+  width: 210px;
+  height: 135px;
+
+  box-sizing: border-box;
+
+  border-radius: 11px;
+
+  padding: 17px 20px;
+
+  color: white;
+
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Black Card */
+
+.credit-card--black {
+  top: 17px;
+  left: 8px;
+
+  z-index: 1;
+
+  background: linear-gradient(
+    135deg,
+    #252525 0%,
+    #171717 100%
+  );
+
+  transform: rotate(15deg);
+}
+
+/* Blue Card */
+
+.credit-card--blue {
+  top: 125px;
+  left: 77px;
+
+  z-index: 2;
+
+  width: 225px;
+  height: 145px;
+
+  background: #4541ff;
+
+  transform: rotate(-6deg);
+}
+
+/* =========================
+   CARD TOP
+========================= */
+
+.card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visa {
+  font-size: 15px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.card-brand {
+  font-size: 6px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* =========================
+   CHIP
+========================= */
+
+.chip {
+  width: 18px;
+  height: 13px;
+
+  margin-top: 12px;
+
+  border-radius: 3px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent 45%,
+      rgba(100, 100, 100, 0.7) 46%,
+      rgba(100, 100, 100, 0.7) 52%,
+      transparent 53%
+    ),
+    #c8c8c8;
+}
+
+/* =========================
+   CARD NUMBER
+========================= */
+
+.card-number {
+  margin-top: 13px;
+
+  font-size: 8px;
+  font-weight: 600;
+
+  letter-spacing: 2px;
+
+  white-space: nowrap;
+}
+
+/* =========================
+   CARD BOTTOM
+========================= */
+
+.card-bottom {
+  position: absolute;
+
+  left: 20px;
+  right: 18px;
+  bottom: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 6px;
+  letter-spacing: 0.5px;
+}
+
+.wifi {
+  font-size: 14px;
+  transform: rotate(-30deg);
+}
+
+.card-circles {
+  display: flex;
+  align-items: center;
+}
+
+.card-circles i {
+  display: block;
+
+  width: 13px;
+  height: 13px;
+
+  margin-left: -4px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.card-circles i:first-child {
+  margin-left: 0;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .security-container {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+  }
+
+  .security-content h2 {
+    font-size: 28px;
+  }
+
+  .security-visual {
+    transform: scale(0.9);
+    transform-origin: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .security-section {
+    padding: 60px 20px;
+  }
+
+  .security-container {
+    grid-template-columns: 1fr;
+    row-gap: 45px;
+  }
+
+  .security-content {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .security-content h2 {
+    font-size: 28px;
+  }
+
+  .security-visual {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .security-section {
+    padding: 45px 16px;
+  }
+
+  .security-content h2 {
+    font-size: 24px;
+  }
+
+  .security-feature h3 {
+    font-size: 17px;
+  }
+
+  .security-visual {
+    transform: scale(0.8);
+    transform-origin: top center;
+
+    margin-bottom: -50px;
+  }
+}

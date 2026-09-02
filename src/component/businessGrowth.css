@@ -1,0 +1,215 @@
+.business-growth {
+  width: 100%;
+  min-height: 560px;
+  background: #ffffff;
+  padding: 85px 20px 70px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.business-growth__container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+/* --------------------
+   Header
+-------------------- */
+
+.business-growth__header {
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.business-growth__header h2 {
+  margin: 0 0 12px;
+  color: #17213d;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+}
+
+.business-growth__header p {
+  margin: 0;
+  color: #697389;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+/* --------------------
+   Cards
+-------------------- */
+
+.business-growth__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 19px;
+  align-items: start;
+}
+
+.growth-card {
+  position: relative;
+  min-height: 190px;
+  padding: 42px 34px 32px;
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0 8px 25px rgba(30, 45, 75, 0.025);
+  transition: all 0.25s ease;
+}
+
+.growth-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(30, 45, 75, 0.08);
+}
+
+/* Active middle card */
+
+.growth-card--active {
+  min-height: 191px;
+  border-bottom: 4px solid #25c4e5;
+  box-shadow: 0 12px 30px rgba(30, 45, 75, 0.08);
+}
+
+/* --------------------
+   Icons
+-------------------- */
+
+.growth-card__icon {
+  width: 39px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.growth-card__icon::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  left: -7px;
+  bottom: -4px;
+  z-index: -1;
+}
+
+/* Pink icon */
+
+.growth-card__icon--pink {
+  color: #18243e;
+}
+
+.growth-card__icon--pink::before {
+  background: #ff8889;
+}
+
+/* Blue icon */
+
+.growth-card__icon--blue {
+  color: #18243e;
+}
+
+.growth-card__icon--blue::before {
+  background: #4ed4ee;
+}
+
+/* Green icon */
+
+.growth-card__icon--green {
+  color: #18243e;
+}
+
+.growth-card__icon--green::before {
+  background: #78eca9;
+}
+
+/* --------------------
+   Card Typography
+-------------------- */
+
+.growth-card h3 {
+  margin: 0 0 8px;
+  color: #18233e;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.growth-card p {
+  max-width: 190px;
+  margin: 0;
+  color: #858991;
+  font-size: 11px;
+  line-height: 1.65;
+}
+
+/* --------------------
+   Footer
+-------------------- */
+
+.business-growth__footer {
+  margin-top: 63px;
+  text-align: center;
+  color: #697389;
+  font-size: 11px;
+}
+
+.business-growth__footer strong {
+  color: #5d6982;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* --------------------
+   Responsive
+-------------------- */
+
+@media (max-width: 768px) {
+  .business-growth {
+    padding: 60px 20px;
+  }
+
+  .business-growth__header h2 {
+    font-size: 28px;
+  }
+
+  .business-growth__header p br {
+    display: none;
+  }
+
+  .business-growth__cards {
+    grid-template-columns: 1fr;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .growth-card {
+    min-height: 180px;
+  }
+
+  .business-growth__footer {
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .business-growth {
+    padding: 45px 16px;
+  }
+
+  .business-growth__header h2 {
+    font-size: 25px;
+  }
+
+  .business-growth__header p {
+    font-size: 11px;
+  }
+
+  .growth-card {
+    padding: 35px 28px 28px;
+  }
+}
