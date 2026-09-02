@@ -21,7 +21,7 @@
 
   background-color: var(--bg-blue);
   color: var(--text-color);
-  padding-top: 50px;
+  padding-top: 4rem;
   
 }
 
@@ -32,8 +32,9 @@
 
 .hero-content {
   width: 100%;
-  max-width: 650px;
+  max-width: 850px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -41,11 +42,11 @@
 
   margin: 0;
 
-  font-size: 36px;
-  line-height: 1.12;
+  font-size: 3rem;
+  line-height: 1.5;
   font-weight: 500;
 
-  letter-spacing: -1px;
+  letter-spacing: 1.5px;
 }
 
 
@@ -66,10 +67,10 @@
 
   z-index: -1;
 
-  width: 140px;
+  width: 150px;
   height: 90px;
 
-  left: -15px;
+  left: -10px;
   top: -20px;
 
   background: #ff8581;
@@ -79,13 +80,12 @@
 
 
 .hero-description {
-  max-width: 420px;
 
   margin: 12px auto 23px;
 
-  color: #a9b1c4;
+  color: var(--text-color);
 
-  font-size: 9px;
+  font-size: .9rem;
   line-height: 1.6;
 }
 
@@ -99,21 +99,19 @@
 
   justify-content: center;
 
-  gap: 44px;
+  gap: 10rem;
 
   margin-bottom: 18px;
 }
 
 .btn {
-  height: 30px;
+  height: 3rem;
 
   padding: 0 22px;
 
-  border-radius: 5px;
+  border-radius: 1rem;
 
-  font-family: inherit;
-
-  font-size: 8px;
+  font-size: 1rem;
 
   cursor: pointer;
 
@@ -166,11 +164,11 @@
 
   justify-content: center;
 
-  gap: 15px;
+  gap: 5rem;
 
   color: #8d98ad;
 
-  font-size: 8px;
+  font-size: .9rem;
 }
 
 .benefits span {
@@ -193,9 +191,9 @@
 
   grid-template-columns: repeat(3, 1fr);
 
-  gap: 14px;
+  gap: 1rem;
 
-  width: 565px;
+  width:1000px;
 
   margin: 29px auto 0;
 }
@@ -225,9 +223,9 @@
 
   margin-top: 7px;
 
-  color: white;
+  color: var(--text-color);
 
-  font-size: 8px;
+  font-size: .9rem;
 }
 
 .event-arrow {
@@ -263,9 +261,9 @@
 
   gap: 5px;
 
-  color: white;
+  color: var(--text-color);
 
-  font-size: 9px;
+  font-size: .9rem;
   font-weight: 500;
 }
 
