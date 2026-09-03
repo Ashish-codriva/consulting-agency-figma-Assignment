@@ -1,0 +1,15 @@
+{
+    "left":{
+        "heading":"Useful links",
+        "anchor":["Features","About Us","Portfolio","Pricing","Careers"]
+    },
+    "center":{
+        "heading":"Help & Support",
+        "anchor":["FAQ","Blogs","Contact us","Support"]
+    },
+    "right":{
+        "heading":"Resources",
+        "anchor":["Guides and resources","Team","Tools","Support"]
+    }
+
+}

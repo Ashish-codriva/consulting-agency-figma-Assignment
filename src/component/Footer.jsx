@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import logoImage from "../assets/logo.png";
+import FooterLinks from "./Usefullink.jsx";
 
 const Footer = () => {
   return (
@@ -53,31 +54,8 @@ const Footer = () => {
         </div>
 
         {/* Useful Links */}
-        <div className="footer-column">
-          <h4>Useful Links</h4>
-          <a href="#">Features</a>
-          <a href="#">About</a>
-          <a href="#">Service</a>
-          <a href="#">Team</a>
-        </div>
-
-        {/* Help & Support */}
-        <div className="footer-column">
-          <h4>Help & Support</h4>
-          <a href="#">FAQ</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Support</a>
-        </div>
-
-        {/* Resources */}
-        <div className="footer-column">
-          <h4>Resources</h4>
-          <a href="#">Guides and resources</a>
-          <a href="#">Team</a>
-          <a href="#">Tools</a>
-          <a href="#">Support</a>
-        </div>
+        <FooterLinks />
+        
       </div>
 
       {/* Bottom Section */}

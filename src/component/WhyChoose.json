@@ -1,0 +1,28 @@
+{
+    "features" : [
+  {
+    "icon": "💡",
+    "title": "Creative Ideas",
+    "description": "Class aptent taciti sociq u litoria torquen conub.",
+    "className": "feature-top"
+  },
+  {
+    "icon": "◉",
+    "title": "Awesome Design",
+    "description": "Integer a elit pellentesque semper sem ultricies.",
+    "className": "feature-right-top"
+  },
+  {
+    "icon": "▣",
+    "title": "Best Features",
+    "description": "Fusce risus lorem pulvinar a eu posuere vitae.",
+    "className": "feature-bottom"
+  },
+  {
+    "icon": "▤",
+    "title": "Easy Solutions",
+    "description": "Aenean eget nulla eu dui malesuada convallis vel.",
+    "className": "feature-right-bottom"
+  }
+]
+}

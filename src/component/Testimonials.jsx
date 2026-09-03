@@ -3,6 +3,9 @@ import "./Testimonials.css";
 import feedback1 from '../assets/feedback1.png';
 import feedback2 from '../assets/feedback2.png';
 import feedback3 from '../assets/feedback3.png';
+// import testimonialsJson from "./Testimonial.json";
+
+// const testimonials = testimonialsJson.testimonials;
 
 const testimonials = [
   {

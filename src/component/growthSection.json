@@ -1,0 +1,22 @@
+
+ 
+ {
+    "stats" : [
+    {
+      "value": "142",
+      "label": "New Features"
+    },
+    {
+      "value": "28k",
+      "label": "APP Download"
+    },
+    {
+      "value": "53M",
+      "label": "Active Users"
+    },
+    {
+      "value": "90%",
+      "label": "Positive Rate"
+    }
+  ]
+}

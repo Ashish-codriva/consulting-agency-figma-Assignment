@@ -1,29 +1,33 @@
 import { useState } from "react";
 import "./performanceSection.css";
 import performanceImage from "../assets/performance-team.png";
+import performanceSectionJson from "./performanceSection.json";
 
-const features = [
-  {
-    title: "Custom Edit Tool Application",
-    description:
-      "Create powerful editing experiences with flexible tools designed around your workflow.",
-  },
-  {
-    title: "Built In Safety Chat Mode Enabled",
-    description:
-      "Keep communication protected with an intuitive and secure chat experience.",
-  },
-  {
-    title: "Foster Trust Builds System Always Open",
-    description:
-      "Build stronger relationships with a system that keeps your team connected.",
-  },
-  {
-    title: "Create Auto Layouts In App Interface",
-    description:
-      "Suspendisse mollis ligula dictum iaculis viverra nulla velit phauy lorem ac scelerisque neque turpis.",
-  },
-];
+const features = performanceSectionJson.features;
+// getting values from the JSON or the Database
+
+// const features = [
+//   {
+//     title: "Custom Edit Tool Application",
+//     description:
+//       "Create powerful editing experiences with flexible tools designed around your workflow.",
+//   },
+//   {
+//     title: "Built In Safety Chat Mode Enabled",
+//     description:
+//       "Keep communication protected with an intuitive and secure chat experience.",
+//   },
+//   {
+//     title: "Foster Trust Builds System Always Open",
+//     description:
+//       "Build stronger relationships with a system that keeps your team connected.",
+//   },
+//   {
+//     title: "Create Auto Layouts In App Interface",
+//     description:
+//       "Suspendisse mollis ligula dictum iaculis viverra nulla velit phauy lorem ac scelerisque neque turpis.",
+//   },
+// ];
 
 function PerformanceSection() {
   const [activeItem, setActiveItem] = useState(3);

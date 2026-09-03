@@ -1,26 +1,33 @@
 import React from "react";
 import "./GrowthSection.css";
 import growthImage from "../assets/growth.png";
+import growthObject from "./growthSection.json"; 
 
 const GrowthSection = () => {
-  const stats = [
-    {
-      value: "142",
-      label: "New Features",
-    },
-    {
-      value: "28k",
-      label: "APP Download",
-    },
-    {
-      value: "53M",
-      label: "Active Users",
-    },
-    {
-      value: "90%",
-      label: "Positive Rate",
-    },
-  ];
+  const stats = growthObject.stats;
+
+  // getting the Appilication growth values from the JSON or the Database
+
+  // [
+  //   {
+  //     value: "142",
+  //     label: "New Features",
+  //   },
+  //   {
+  //     value: "28k",
+  //     label: "APP Download",
+  //   },
+  //   {
+  //     value: "53M",
+  //     label: "Active Users",
+  //   },
+  //   {
+  //     value: "90%",
+  //     label: "Positive Rate",
+  //   },
+  // ];
+
+
 
   return (
     <section className="growth-section">
